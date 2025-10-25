@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="es" xml:lang="es">
+  <head><meta charset="utf-8"><title>WebSokets</title></head>
+  <body>
+    <script type="module">
+      try {
+        const r = await fetch('/status');
+        const t = await r.text();
+        document.body.insertAdjacentHTML('beforeend', '<pre id="out">' + t + '</pre>');
+      } catch (e) {
+        document.body.insertAdjacentHTML('beforeend', '<pre id="out">Error: ' + e + '</pre>');
+      }
+    </script>
+    <p>hola aaa</p>
+  </body>
+</html>
