@@ -9,8 +9,15 @@ import org.springframework.web.socket.server.standard.ServerEndpointExporter;
 @EnableScheduling
 public class WSConfigurator {
     
-    @Bean   
+    @Bean
     public ServerEndpointExporter serverEndpointExporter() {
-        return new ServerEndpointExporter();
+        try {
+            Class.forName("jakarta.websocket.server.ServerContainer");
+            return new ServerEndpointExporter();
+        } catch (ClassNotFoundException e) {
+            // No hay servidor web en el entorno de test
+            return null;
+        }
     }
+
 }

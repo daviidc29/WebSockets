@@ -108,7 +108,8 @@ Y en donde el componenete ReactJs quedo:
 
 Y la prueba de ejecución:
 
-![alt text](image.png)
+![alt text](img/img38.png)
 
 Despliegue en:
+
 
