@@ -112,4 +112,6 @@ Y la prueba de ejecución:
 
 Despliegue en:
 
+https://lab6-arsw-eahneya2d2d7eyhg.canadacentral-01.azurewebsites.net/index.html
 
+![alt text](img/img39.png)
