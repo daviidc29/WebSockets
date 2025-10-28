@@ -10,7 +10,7 @@ class WSClient extends React.Component {
 
     componentDidMount() {
         // Crear la conexión WebSocket
-        this.ws = new WebSocket("ws://localhost:8080/timer");
+        this.ws = new WebSocket(`ws://${globalThis.location.host}/timer`);
 
         // Escuchar mensajes
         this.ws.onmessage = (event) => {
