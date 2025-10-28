@@ -74,3 +74,41 @@ En donde se realizo el siguiente Endpoint:
 ![alt text](img/img25.png)
 
 ![alt text](img/img26.png)
+
+![alt text](img/img27.png)
+
+![alt text](img/img28.png)
+
+
+En donde se creo:
+
+![alt text](img/img29.png)
+
+![alt text](img/img30.png)
+
+Realizamos la configuración:
+
+![alt text](img/img31.png)
+
+![alt text](img/img32.png)
+
+![alt text](img/img33.png)
+
+Donde construimos el cliente Web:
+
+![alt text](img/img34.png)
+
+![alt text](img/img35.png)
+
+![alt text](img/img36.png)
+
+Y en donde el componenete ReactJs quedo:
+
+![alt text](img/img37.png)
+
+Y la prueba de ejecución:
+
+![alt text](image.png)
+
+Despliegue en:
+

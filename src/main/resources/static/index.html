@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="es" xml:lang="es">
-  <head><meta charset="utf-8"><title>WebSokets</title></head>
+  <head>
+    <title>WebSokets Testing Client</title>
+    <meta charset="utf-8" content="width=device-width, initial-scale=1.0">
+  </head>
   <body>
-    <script type="module">
-      try {
-        const r = await fetch('/status');
-        const t = await r.text();
-        document.body.insertAdjacentHTML('beforeend', '<pre id="out">' + t + '</pre>');
-      } catch (e) {
-        document.body.insertAdjacentHTML('beforeend', '<pre id="out">Error: ' + e + '</pre>');
-      }
-    </script>
-    <p>hola aaa</p>
+    <hr/>
+    <div id="timer"></div>
+    <hr/>
+
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script src="js/WsComponent.jsx" type="text/babel"></script>
+
   </body>
 </html>
